@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Hotel
+comment0.text=\n\ \n\ @author\ Prof.\ White\n\ @version\ Fall\ 2019\n
+comment1.params=
+comment1.target=Hotel()
+comment10.params=floor\ view\ capacity\ kitchenette
+comment10.target=java.util.ArrayList\ getAvailableRooms(int,\ View,\ int,\ boolean)
+comment2.params=availableRooms\ reservedRooms
+comment2.target=Hotel(java.util.ArrayList,\ java.util.ArrayList)
+comment3.params=room
+comment3.target=void\ addNewRoom(Room)
+comment3.text=\n\ Adds\ a\ new\ room\ to\ the\ available\ rooms\ list.\n\ \n\ @param\ room\ The\ room\ to\ be\ added.\n
+comment4.params=roomNumber
+comment4.target=boolean\ reserveRoom(int)
+comment5.params=roomNumber
+comment5.target=boolean\ makeRoomAvailable(int)
+comment6.params=
+comment6.target=java.util.ArrayList\ getAllAvailableRooms()
+comment6.text=\n\ Returns\ all\ available\ rooms.\n\ \n\ @return\ The\ list\ of\ available\ rooms.\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getAllReservedRooms()
+comment7.text=\n\ Returns\ all\ reserved\ rooms.\n\ \n\ @return\ The\ list\ of\ reserved\ rooms.\n
+comment8.params=roomNumber
+comment8.target=Room\ getAvailableRoomByRoomNumber(int)
+comment9.params=roomNumber
+comment9.target=Room\ getReservedRoomByRoomNumber(int)
+numComments=11
